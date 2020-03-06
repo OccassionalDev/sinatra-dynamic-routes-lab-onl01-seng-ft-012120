@@ -26,4 +26,6 @@ class App < Sinatra::Base
     saying = "#{params[:word1]} #{params[:word2]} #{params[:word3]} #{params[:word4]} #{params[:word5]}."
     saying 
   end 
+  
+  
 end
