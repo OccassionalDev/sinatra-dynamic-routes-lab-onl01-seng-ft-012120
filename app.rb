@@ -17,7 +17,7 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     
     @amt.times do 
-      puts @phrase
+      @phrase
     end 
   end 
 end
