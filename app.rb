@@ -21,5 +21,4 @@ class App < Sinatra::Base
       puts @phrase
     end 
   end 
-
 end
